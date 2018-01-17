@@ -1,51 +1,51 @@
 package top.androidman.lintcode;
 
+/**
+ * 
+ * @author yanjie
+ * 
+ *         理解旋转后的数组其实就是两个有序数组，这是能用二分查找的理论基础
+ * 
+ */
+
 public class LintCode_62 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		int[] nums = {1001,10001,10007,1,10,101,201};
-		System.out.println(search(nums, 10001));
+		int[] nums = { 438, 443, 446, 449, 454, 457, 462, 488, 377, 382, 386, 391, 394, 399, 402, 405, 407, 411, 413, 417, 419, 422, 427, 431, 434, 437 };
+		System.out.println(search(nums, 488));
 	}
 
-	public static int search(int[] a, int target) {
-		// write your code here
-		if (a.length == 0)
-			return -1;
-
-		if (a[0] == target)
-			return 0;
-
-		if (a[a.length - 1] == target)
-			return a.length - 1;
-		int low = 0;
-		int high = a.length - 1;
-		int mid;
-		int n = a.length - 1;
-		while (low < high){
-			mid = (low + high) / 2;
-			if (a[mid] == target)
+	public static int search(int[] nums, int target) {
+		int left = 0;
+		int right = nums.length - 1;
+		int mid = 0;
+		while (left <= right) {
+			mid = left + (right - left) / 2;
+			if (target < nums[mid]) {
+				if (nums[mid] < nums[right]) {
+					right = mid - 1;
+				} else {
+					if (target < nums[left]) {
+						left = mid + 1;
+					} else {
+						right = mid - 1;
+					}
+				}
+			} else if (target > nums[mid]) {
+				if (nums[mid] > nums[left]) {
+					left = mid + 1;
+				} else {
+					if (target == nums[right]) {
+						return right;
+					}else if (target < nums[right]) {
+						left = mid + 1;
+					} else {
+						right = mid - 1;
+					}
+				}
+			} else {
 				return mid;
-
-			if (a[mid] > target){
-				if (a[mid] < a[n])
-					high = mid - 1;
-				if (a[mid] > a[0] && target > a[0])
-					high = high - 1;
-				if (a[mid] > a[0] && target < a[0])
-					low = mid + 1;
 			}
-			if (a[mid] < target){
-				if (a[mid] < a[n] && target < a[n])
-					low = mid + 1;
-				if (a[mid] < a[n] && target > a[n])
-					high = mid - 1;
-				if (a[mid] > a[0])
-					low = mid + 1;
-			}
-			System.out.println("left=" + low + ",mid=" + mid + ",right=" + high);
 		}
 		return -1;
 	}

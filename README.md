@@ -8,11 +8,11 @@
 - 难度：问题难度，方便自己把握，其实这个不是绝对的
 - lintcode地址：方便大家找到出处，方便练习
 - 参考资料：一些关于这个题目比较好的资料，供自己回顾和大家参考
-- 全部用java语音实现
+- 全部用java语言实现
 
 
 
 
 |     序号     |    问题名称     |  难度  |lintcode题号|    参考资料     |
 |:-----------:|:--------------:|:------:|:---------:|:-------------:|
-|1|[第一个错误的代码版本](http://dwz.cn/7g1ntI)|中等|[74](http://www.lintcode.com/zh-cn/problem/first-bad-version/)||
+|1|[第一个错误的代码版本](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_74.java)|中等|[74](http://www.lintcode.com/zh-cn/problem/first-bad-version/)|[二分查找法的汇总](https://www.cnblogs.com/ider/archive/2012/04/01/binary_search.html)|

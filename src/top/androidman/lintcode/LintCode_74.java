@@ -3,6 +3,9 @@ package top.androidman.lintcode;
 /**
  * 
  * @author yanjie
+ * 
+ * 知识点：
+ * 二分查找法找寻边界值
  *
  */
 
@@ -41,7 +44,3 @@ class SVNRepo {
 	}
 }
 
-/**
- * 此题目可以扩充到出现不同的题目，比如一个二进制数前N为是1，后面是0，问什么时候开始出现0
- * 
- */

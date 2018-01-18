@@ -8,8 +8,8 @@ package top.androidman.lintcode;
 public class LintCode_14 {
 	
 	public static void main(String[] args) {
-		int[] nums = {2,3,4,5,6,7,8,8,8,8,10,13,14,17};
-		System.out.println(binarySearch(nums, 8));
+		int[] nums = {1, 2, 2, 4, 5, 5};
+		System.out.println(binarySearch(nums, 5));
 	}
 	
 	public static int binarySearch(int[] nums, int target) {
@@ -25,7 +25,9 @@ public class LintCode_14 {
 				left = mid + 1;
 			}
 		}
-		if (nums[left] == target) {
+		//需要注意  left < nums.length  这个条件
+		//当target大于所有值并且不存在时，left的最终值是越界的
+		if (left < nums.length && nums[left] == target) {
 			return left;
 		}
 		return -1;

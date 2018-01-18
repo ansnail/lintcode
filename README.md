@@ -14,6 +14,7 @@
 
 
 |     序号     |    问题名称     |  难度  |lintcode题号|    参考资料     |
-|:-----------:|:--------------|:------:|:---------:|:-------------:|
-|1|[第一个错误的代码版本](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_74.java)|中等|[74](http://www.lintcode.com/zh-cn/problem/first-bad-version/)|[二分查找法的汇总](https://www.cnblogs.com/ider/archive/2012/04/01/binary_search.html)|
-|2|[搜索旋转排序数组](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_62.java)|中等|[62](http://www.lintcode.com/zh-cn/problem/first-bad-version/)|[二分查找法的汇总](https://www.cnblogs.com/ider/archive/2012/04/01/binary_search.html)|
+|:-----------:|:--------------|:------:|:---------:|:-------------|
+|1|[二分查找](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_14.java)|简单|[14](http://www.lintcode.com/zh-cn/problem/first-bad-version/)|[二分查找](http://blog.csdn.net/guoziqing506/article/details/50957775)|
+|2|[第一个错误的代码版本](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_74.java)|中等|[74](http://www.lintcode.com/zh-cn/problem/first-bad-version/)|[二分查找法的汇总](https://www.cnblogs.com/ider/archive/2012/04/01/binary_search.html)|
+|3|[搜索旋转排序数组](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_62.java)|中等|[62](http://www.lintcode.com/zh-cn/problem/first-bad-version/)|[二分查找法的汇总](https://www.cnblogs.com/ider/archive/2012/04/01/binary_search.html)|

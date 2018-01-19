@@ -22,3 +22,4 @@
 |5|[搜索插入位置](http://www.lintcode.com/zh-cn/problem/search-insert-position/)|容易|[LintCode_60.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_60.java)|[搜索插入位置](http://blog.csdn.net/guoziqing506/article/details/50960280)|
 |6|[寻找旋转排序数组中的最小值](http://www.lintcode.com/zh-cn/problem/search-insert-position/)|中等|[LintCode_159.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_159.java)|[寻找旋转排序数组中的最小值](http://blog.csdn.net/guoziqing506/article/details/51058549)|
 |7|[平面列表](http://www.lintcode.com/zh-cn/problem/flatten-list/)|容易|[LintCode_22.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_22.java)|暂无|
+|8|[搜索二维矩阵](http://www.lintcode.com/zh-cn/problem/search-a-2d-matrix/)|容易|[LintCode_28.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_28.java)|暂无|

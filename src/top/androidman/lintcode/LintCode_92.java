@@ -10,10 +10,17 @@ public class LintCode_92 {
 	}
 	
 	
-	public static int backPack(int m, int[] nums) {
+	public static int backPack(int m, int[] packs) {
         // write your code here
 		int[] weights = new int[m];
-		for (int i = 0; i < nums.length; i++) {
+		for (int i = 0; i < weights.length; i++) {
+			if (i < packs[0]) {
+				weights[i] = 0;
+			}else {
+				weights[i] = packs[0];
+			}
+		}
+		for (int i = 0; i < packs.length; i++) {
 			for (int j = 0; j < m; j++) {
 				
 			}

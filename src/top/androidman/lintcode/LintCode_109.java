@@ -75,7 +75,6 @@ public class LintCode_109 {
 					min = steps[i][j];
 				}
 			}
-			System.out.println(PrintUitls.printD(steps));
 		}
 		return min;
 

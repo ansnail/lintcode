@@ -28,3 +28,4 @@
 |11|[不同的路径II](http://www.lintcode.com/zh-cn/problem/unique-paths-ii/)|容易|[LintCode_115.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_115.java)|[不同的路径II](https://www.cnblogs.com/grandyang/p/4353680.html)|
 |12|[数字三角形](http://www.lintcode.com/zh-cn/problem/triangle/)|容易|[LintCode_109.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_109.java)|暂无|
 |13|[最小路径和](http://www.lintcode.com/zh-cn/problem/minimum-path-sum/)|容易|[LintCode_110.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_110.java)|暂无|
+|14|[栅栏染色](http://www.lintcode.com/zh-cn/problem/paint-fence/)|容易|[LintCode_514.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_514.java)|[栅栏染色](http://blog.csdn.net/u012225151/article/details/51924588)|

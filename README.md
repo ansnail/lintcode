@@ -31,3 +31,4 @@
 |14|[栅栏染色](http://www.lintcode.com/zh-cn/problem/paint-fence/)|容易|[LintCode_514.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_514.java)|[栅栏染色](http://blog.csdn.net/u012225151/article/details/51924588)|
 |15|[硬币排成线](http://www.lintcode.com/zh-cn/problem/coins-in-a-line/)|中等|[LintCode_394.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_394.java)|暂无|
 |16|[硬币排成线II](http://www.lintcode.com/zh-cn/problem/coins-in-a-line-ii/)|中等|[LintCode_395.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_395.java)|[硬币排成线II](http://www.cnblogs.com/theskulls/p/4963317.html)|
+|16|[背包问题](http://www.lintcode.com/zh-cn/problem/backpack/)|中等|[LintCode_92.java](https://github.com/weiyanjie/lintcode/blob/master/src/top/androidman/lintcode/LintCode_92.java)|[背包问题](http://blog.csdn.net/wutingyehe/article/details/46910103)|
